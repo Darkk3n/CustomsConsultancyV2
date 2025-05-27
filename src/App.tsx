@@ -1,12 +1,12 @@
 import './App.css'
-import { Consultancy } from './components/Consultancy'
-import { Header } from './components/Header'
-import { Intro } from './components/Intro'
-import { LegalDefense } from './components/LegalDefense'
-import { Management } from './components/Management'
-import { Outro } from './components/Outro'
-import { Profile } from './components/Profile'
-import { AllServices } from './components/AllServices'
+import { Consultancy } from './views/Consultancy'
+import { Header } from './views/Header'
+import { Intro } from './views/Intro'
+import { LegalDefense } from './views/LegalDefense'
+import { Management } from './views/Management'
+import { Outro } from './views/Outro'
+import { Profile } from './views/Profile'
+import { AllServices } from './views/AllServices'
 
 export const App = () => {
   return (
