@@ -1,5 +1,5 @@
 export const Header = () => {
     return (
-        <div>Header</div>
+        <img src="/Header.webp" className="w-full h-auto" />
     )
 }

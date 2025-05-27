@@ -2,7 +2,7 @@ export const AllServices = () => {
     return (
         <section className="mt-3 flex flex-row">
             <section className="w-1/2">
-                <img src="/Services4.webp" alt="servicios" className="w-80" />
+                <img src="/Services.webp" alt="servicios" className="w-80" />
             </section>
             <section className="text-white text-2xl w-1/2 text-left">
                 <p>Asesoría Jurídica en Materia Aduanera y de Comercio Exterior.</p>
