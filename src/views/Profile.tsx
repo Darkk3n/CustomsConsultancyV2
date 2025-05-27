@@ -10,8 +10,7 @@ export const Profile = () => {
                 </p>
             </section>
             <section className="w-1/2 flex flex-col items-center" >
-                <img src='/Services4.webp' className="w-80 ml-6" />
-                <p>Mtro. Andrés Aguilar Sánchez</p>
+                <img src='/Intro.webp' className="ml-6" />
             </section>
         </section>
     )
