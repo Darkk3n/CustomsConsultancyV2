@@ -1,12 +1,6 @@
 import './App.css'
-import { Consultancy } from './views/Consultancy'
-import { Header } from './views/Header'
-import { Intro } from './views/Intro'
-import { LegalDefense } from './views/LegalDefense'
-import { Management } from './views/Management'
-import { Outro } from './views/Outro'
-import { Profile } from './views/Profile'
-import { AllServices } from './views/AllServices'
+import { AllServices, Consultancy, Header, Intro, LegalDefense, Management, Outro, Profile } from './views'
+
 
 export const App = () => {
   return (
