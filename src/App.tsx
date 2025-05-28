@@ -4,7 +4,7 @@ import { AllServices, Consultancy, Header, Intro, LegalDefense, Management, Outr
 
 export const App = () => {
   return (
-    <main className='flex flex-col items-center justify-center'>
+    <main className='flex flex-col items-center justify-center gap-y-6'>
       <Header />
       <Intro />
       <Profile />
