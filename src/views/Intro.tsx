@@ -7,7 +7,7 @@ export const Intro = () => {
                     Es un Despacho Jurídico que ofrece servicios de Asesoría y Defensa Legal en Materia Aduanera y de Comercio Exterior.
                 </p>
             </section>
-            <img id="imgIntro" src="/Services4.webp" className="w-1/2 h-9/10 ml-2" />
+            <img src="/Services4.webp" className="w-1/2 h-9/10 ml-2" />
         </section>
     )
 }
