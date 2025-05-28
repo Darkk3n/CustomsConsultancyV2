@@ -1,5 +1,6 @@
 import { faFacebook, faInstagram, faLinkedin, faTiktok, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { SocialMediaIcon } from "../components/SocialMediaIcon"
+import { faEnvelope, faMobileScreen } from '@fortawesome/free-solid-svg-icons'
 
 export const Outro = () => {
     return (
@@ -11,6 +12,10 @@ export const Outro = () => {
                 <p className="text-white text-2xl text-justify ml-3">Mi trayectoria incluye haber formado parte de la Administración Local Jurídica de Veracruz, así como Abogado de Aduanas Marítimas del Servicio de Administración Tributaria, así como en el sector privado como asesor jurídico de agentes aduanales, empresas y particulares, proporcionado soluciones prácticas y legales adaptadas a las necesidades de mis clientes, proporcionando tranquilidad y certeza en sus operaciones de comercio exterior.</p>
                 <br />
                 <p className="text-white text-2xl text-justify ml-3">Si deseas más información o necesitas apoyo en un caso específico, estoy para ayudarte. Escríbeme y platicamos sobre cómo puedo contribuir a solucionar tus necesidades.</p>
+                <div className='flex flex-row items-center justify-around mt-5 ml-6'>
+                    <SocialMediaIcon icon={faMobileScreen} text='229-463-9014' />
+                    <SocialMediaIcon icon={faEnvelope} text='juridico.aduanero.ags@gmail.com' isBold />
+                </div>
                 <div className='flex flex-row items-center justify-around mt-5'>
                     <SocialMediaIcon icon={faWhatsapp} link='https://wa.me/5212294639014' />
                     <SocialMediaIcon icon={faFacebook} link='https://www.facebook.com/ic.aduanal.5' />
