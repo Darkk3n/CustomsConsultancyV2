@@ -1,3 +1,4 @@
+import { ProfileTitle } from "../components"
 
 export const Profile = () => {
     return (
@@ -10,7 +11,8 @@ export const Profile = () => {
                 </p>
             </section>
             <section className="w-1/2 flex flex-col items-center" >
-                <img src='/Intro.webp' className="ml-6" />
+                {/* <img src='/Intro.webp' className="ml-6" /> */}
+                <ProfileTitle />
             </section>
         </section>
     )
