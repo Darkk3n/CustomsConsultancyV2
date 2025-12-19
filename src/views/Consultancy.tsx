@@ -1,8 +1,8 @@
-import { ArrowContainer } from "../components"
+import { ArrowContainer, SectionContainer } from "../components"
 
 export const Consultancy = () => {
     return (
-        <section className="mt-4 flex flex-col md:flex-row items-start text-white px-4 md:px-8">
+        <SectionContainer className="text-white">
             <section className="w-full md:w-1/2 text-justify space-y-4">
                 <ArrowContainer text="Capacitación y actualización en materia aduanera y de comercio exterior." />
                 <div>
@@ -28,6 +28,6 @@ export const Consultancy = () => {
                     className="w-full h-auto object-cover rounded"
                 />
             </section>
-        </section>
+        </SectionContainer>
     )
 }
