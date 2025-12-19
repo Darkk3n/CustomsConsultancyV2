@@ -1,9 +1,10 @@
+import { ArrowContainer } from "../components"
 
 export const Consultancy = () => {
     return (
         <section className="mt-4 flex flex-col md:flex-row items-start text-white px-4 md:px-8">
             <section className="w-full md:w-1/2 text-justify space-y-4">
-                <h2 className="text-lg sm:text-xl font-bold">Capacitación y actualización en materia aduanera y de comercio exterior.</h2>
+                <ArrowContainer text="Capacitación y actualización en materia aduanera y de comercio exterior." />
                 <div>
                     Imparto cursos de capacitación que te permiten mantenerte actualizado y adquirir conocimientos clave en materia aduanera y de comercio exterior.
                 </div>
