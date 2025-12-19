@@ -8,7 +8,7 @@ interface SectionProps {
    className?: string
 }
 
-export const Section = ({
+export const SectionContainer = ({
    children,
    split = false,
    centered = false,

@@ -1,8 +1,9 @@
+import { SectionContainer } from '../components'
 import { ArrowContainer } from '../components/ArrowContainer'
 
 export const LegalDefense = () => {
     return (
-        <section className="mt-8 flex flex-col md:flex-row items-start gap-6 px-4 md:px-8 text-white">
+        <SectionContainer className="text-white">
             <section className="w-full md:w-1/2 space-y-4 text-sm sm:text-base md:text-xl">
                 <ArrowContainer text="Defensa legal ante actos y resoluciones definitivas de autoridad aduanera." />
                 <p>
@@ -41,6 +42,6 @@ export const LegalDefense = () => {
                     className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto object-contain rounded"
                 />
             </section>
-        </section>
+        </SectionContainer>
     )
 }

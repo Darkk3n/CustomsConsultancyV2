@@ -1,4 +1,4 @@
 export * from "./ArrowContainer";
 export * from "./ProfileTitle";
-export * from "./Section";
+export * from "./SectionContainer";
 
