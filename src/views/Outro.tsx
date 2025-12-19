@@ -6,13 +6,12 @@ import {
     faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faMobileScreen } from '@fortawesome/free-solid-svg-icons'
-import { ProfileTitle } from '../components'
+import { ProfileTitle, Section } from '../components'
 import { SocialMediaIcon } from '../components/SocialMediaIcon'
 
 export const Outro = () => {
     return (
-        <section className="mt-10 flex flex-col md:flex-row gap-8 px-4 md:px-8">
-            {/* Image */}
+        <Section split>
             <section className="w-full md:w-1/2 flex justify-center">
                 <img
                     src="/Outro.webp"
@@ -59,6 +58,6 @@ export const Outro = () => {
                     <SocialMediaIcon icon={faLinkedin} link="https://www.linkedin.com/in/andr%C3%A9s-aguilar-s%C3%A1nchez-a78967273" />
                 </div>
             </section>
-        </section>
+        </Section>
     )
 }
