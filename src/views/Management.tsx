@@ -33,7 +33,7 @@ export const Management = () => {
             </section>
             <section className="w-full md:w-1/2 flex flex-col items-center gap-4">
                 <img
-                    src="/Management.webp"
+                    src="/RealManagement.webp"
                     alt="gestión"
                     className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto object-contain rounded"
                 />

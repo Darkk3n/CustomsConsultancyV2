@@ -37,7 +37,7 @@ export const LegalDefense = () => {
             </section>
             <section className="w-full md:w-1/2 flex justify-center">
                 <img
-                    src="/Management1.webp"
+                    src="/LegalDefense.webp"
                     alt="defensa legal"
                     className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto object-contain rounded"
                 />
