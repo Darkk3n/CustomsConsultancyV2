@@ -3,7 +3,7 @@ import { ArrowContainer } from '../components/ArrowContainer'
 
 export const LegalDefense = () => {
     return (
-        <SectionContainer className="text-white">
+        <SectionContainer split className="text-white">
             <section className="w-full md:w-1/2 space-y-4 text-sm sm:text-base md:text-xl">
                 <ArrowContainer text="Defensa legal ante actos y resoluciones definitivas de autoridad aduanera." />
                 <p>
