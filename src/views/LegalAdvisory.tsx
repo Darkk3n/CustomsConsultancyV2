@@ -14,7 +14,7 @@ export const LegalAdvisory = () => {
                <li>Reglas y Criterios de Carácter General en Materia de Comercio Exterior de la Secretaria de Economía</li>
                <li>Demás normatividad legal aplicable en la materia aduanera y de comercio exterior.</li>
             </ul>
-            <p>La Asesoría pueden ser:</p>
+            <p className='text-left'>La Asesoría pueden ser:</p>
             <ul className='list-disc list-inside space-y-2 text-left'>
                <li>
                   <strong>Orientación Jurídica Aduanera:</strong> Recibe respuestas y guías para tus dudas legales en materia aduanera y de comercio exterior.
@@ -26,7 +26,7 @@ export const LegalAdvisory = () => {
                   Análisis especializado y operativo en los trámites que se deben realizar ante la Aduana de México para realizar Despachos Aduaneros en cumplimiento de la normatividad legal aplicable.
                </li>
             </ul>
-            <p>Con nuestra asesoría especializada, aseguras el cumplimiento normativo de tus operaciones, evitando multas, sanciones y retrasos que puedan impactar negativamente tu negocio.</p>
+            <p className='text-justify'>Con nuestra asesoría especializada, aseguras el cumplimiento normativo de tus operaciones, evitando multas, sanciones y retrasos que puedan impactar negativamente tu negocio.</p>
          </section>
          <section className="w-full md:w-1/2 flex justify-center">
             <img
