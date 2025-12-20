@@ -3,7 +3,7 @@ import { SectionContainer } from '../components/SectionContainer'
 
 export const Management = () => {
     return (
-        <SectionContainer split className="text-white">
+        <SectionContainer reverse split className="text-white">
             <section className="w-full md:w-1/2 space-y-4 text-sm sm:text-base md:text-xl">
                 <ArrowContainer text="Gestión y resolución de procedimientos administrativos aduaneros" />
                 <p>

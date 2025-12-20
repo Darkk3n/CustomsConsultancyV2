@@ -2,7 +2,7 @@ import { ArrowContainer, SectionContainer } from "../components"
 
 export const Consultancy = () => {
     return (
-        <SectionContainer split className="text-white">
+        <SectionContainer reverse split className="text-white">
             <section className="w-full md:w-1/2 text-justify space-y-4">
                 <ArrowContainer text="Capacitación y actualización en materia aduanera y de comercio exterior." />
                 <div>

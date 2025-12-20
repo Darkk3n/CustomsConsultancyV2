@@ -1,5 +1,5 @@
 import './App.css'
-import { AllServices, Consultancy, Header, Intro, LegalDefense, Management, Outro, Profile } from './views'
+import { AllServices, Consultancy, Header, Intro, LegalAdvisory, LegalDefense, Management, Outro, Profile } from './views'
 
 
 export const App = () => {
@@ -9,6 +9,7 @@ export const App = () => {
       <Intro />
       <Profile />
       <AllServices />
+      <LegalAdvisory />
       <Management />
       <LegalDefense />
       <Consultancy />
