@@ -1,5 +1,6 @@
 import type { IconDefinition } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import clsx from "clsx";
 
 interface ISocialMediaIconProps {
     icon: IconDefinition;
@@ -12,7 +13,7 @@ export const SocialMediaIcon = ({ icon, link, text, isBold = false }: ISocialMed
     return (
         <a href={link} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={icon} size="2x" className="text-white" />
-            {text && <span className={`ml-4 text-white text-xl ${isBold ? "font-bold" : ""}`}>{text}</span>}
+            {text && <span className={clsx('ml-4 text-white text-xl', isBold && 'font-bold')}>{text}</span>}
         </a>
     )
 }
