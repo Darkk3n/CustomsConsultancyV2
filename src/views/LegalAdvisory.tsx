@@ -1,4 +1,4 @@
-import { ArrowContainer, SectionContainer } from '../components'
+import { ArrowContainer, Image, SectionContainer } from '../components'
 
 export const LegalAdvisory = () => {
    return (
@@ -29,11 +29,7 @@ export const LegalAdvisory = () => {
             <p className='text-justify'>Con nuestra asesoría especializada, aseguras el cumplimiento normativo de tus operaciones, evitando multas, sanciones y retrasos que puedan impactar negativamente tu negocio.</p>
          </section>
          <section className="w-full md:w-1/2 flex justify-center">
-            <img
-               src="/LegalAdvisory.webp"
-               alt="asesoria legal"
-               className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto object-contain rounded"
-            />
+            <Image fileName="/LegalAdvisory.webp" alternateText="asesoria legal" />
          </section>
 
       </SectionContainer>

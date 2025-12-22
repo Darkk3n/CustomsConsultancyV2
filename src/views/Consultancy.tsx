@@ -1,4 +1,4 @@
-import { ArrowContainer, SectionContainer } from "../components"
+import { ArrowContainer, Image, SectionContainer } from "../components"
 
 export const Consultancy = () => {
     return (
@@ -22,11 +22,7 @@ export const Consultancy = () => {
                 </div>
             </section>
             <section className="w-full md:w-1/2 mt-6 md:mt-0 md:ml-6">
-                <img
-                    src="/Consultancy.webp"
-                    alt="consultoría"
-                    className="w-full h-auto object-cover rounded"
-                />
+                <Image fileName="/Consultancy.webp" alternateText="consultoria" />
             </section>
         </SectionContainer>
     )

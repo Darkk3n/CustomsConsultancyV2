@@ -1,4 +1,4 @@
-import { ArrowContainer } from '../components'
+import { ArrowContainer, Image } from '../components'
 import { SectionContainer } from '../components/SectionContainer'
 
 export const Management = () => {
@@ -32,12 +32,7 @@ export const Management = () => {
                 </p>
             </section>
             <section className="w-full md:w-1/2 flex flex-col items-center gap-4">
-                <img
-                    src="/RealManagement.webp"
-                    alt="gestión"
-                    className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto object-contain rounded"
-                />
-
+                <Image fileName="/RealManagement.webp" alternateText="gestion aduanera" />
                 <div className="bg-gray-900 rounded text-center w-full max-w-md">
                     <a
                         href="https://wa.me/5212294639014"

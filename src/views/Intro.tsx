@@ -1,3 +1,4 @@
+import { Image } from '../components'
 import { SectionContainer } from '../components/SectionContainer'
 
 export const Intro = () => {
@@ -14,11 +15,7 @@ export const Intro = () => {
                 </p>
             </section>
             <section className="w-full md:w-1/2 flex justify-center">
-                <img
-                    src="/Services4.webp"
-                    alt="servicios"
-                    className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto object-contain"
-                />
+                <Image fileName="/Services4.webp" alternateText="introduccion" />
             </section>
         </SectionContainer>
     )
