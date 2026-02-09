@@ -3,7 +3,7 @@ interface IArrowContainerProps {
     icon?: string;
 }
 
-export const ArrowContainer = ({ text }: IArrowContainerProps) => {
+export const ArrowContainer = ({ text, icon }: IArrowContainerProps) => {
     return (
         <div
             className="clip-arrow flex items-center p-4 sm:p-6 pr-12 max-w-full sm:max-w-xl"
@@ -11,8 +11,8 @@ export const ArrowContainer = ({ text }: IArrowContainerProps) => {
         >
             <div className="flex-shrink-0 mr-1 sm:mr-2">
                 <img
-                    src="/LegalDefenseIcon.webp"
-                    alt="Legal Icon"
+                    src={`/${icon}.webp`}
+                    alt="Element Icon"
                     className="w-32 h-32 sm:w-32 sm:h-32 object-contain"
                 />
             </div>
