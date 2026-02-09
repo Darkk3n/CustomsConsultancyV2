@@ -7,3 +7,9 @@
 .profile-title {
     font-family: "Dancing Script", cursive;
 }
+
+@layer base {
+    html {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
