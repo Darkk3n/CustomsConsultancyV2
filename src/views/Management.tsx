@@ -5,7 +5,7 @@ export const Management = () => {
     return (
         <SectionContainer reverse split className="text-white">
             <section className="w-full md:w-1/2 space-y-4 text-sm sm:text-base md:text-xl">
-                <ArrowContainer text="Gestión y resolución de procedimientos administrativos aduaneros" />
+                <ArrowContainer text="Gestión y resolución de procedimientos administrativos aduaneros" icon='ManagementIndividualIcon' />
                 <p>
                     Te acompaño en la gestión y resolución de tus procedimientos
                     administrativos aduaneros, incluyendo:

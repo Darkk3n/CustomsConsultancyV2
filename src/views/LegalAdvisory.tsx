@@ -4,7 +4,7 @@ export const LegalAdvisory = () => {
    return (
       <SectionContainer split className="text-white">
          <section className='w-full md:w-1/2 space-y-4 text-sm sm:text-base md:text-xl'>
-            <ArrowContainer text="Asesoría jurídica en Materia Aduanera y de Comercio Exterior." />
+            <ArrowContainer text="Asesoría jurídica en Materia Aduanera y de Comercio Exterior." icon='LegalAdvisoryIndividualIcon' />
             <p>Te proporciono asesoría jurídica especializada relativa al conocimiento, interpretación y aplicación de:</p>
             <ul className='list-disc list-inside space-y-2 text-left'>
                <li>Ley Aduanera</li>

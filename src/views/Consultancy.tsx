@@ -4,7 +4,7 @@ export const Consultancy = () => {
     return (
         <SectionContainer reverse split className="text-white">
             <section className="w-full md:w-1/2 text-justify space-y-4">
-                <ArrowContainer text="Capacitación y actualización en materia aduanera y de comercio exterior." />
+                <ArrowContainer text="Capacitación y actualización en materia aduanera y de comercio exterior." icon="TrainingIndividualIcon" />
                 <div>
                     Imparto cursos de capacitación que te permiten mantenerte actualizado y adquirir conocimientos clave en materia aduanera y de comercio exterior.
                 </div>

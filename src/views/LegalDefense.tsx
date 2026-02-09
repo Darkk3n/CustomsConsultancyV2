@@ -5,7 +5,7 @@ export const LegalDefense = () => {
     return (
         <SectionContainer split className="text-white">
             <section className="w-full md:w-1/2 space-y-4 text-sm sm:text-base md:text-xl">
-                <ArrowContainer text="Defensa legal ante actos y resoluciones definitivas de autoridad aduanera." />
+                <ArrowContainer text="Defensa legal ante actos y resoluciones definitivas de autoridad aduanera." icon='LegalDefenseIndividualIcon' />
                 <p>
                     Estudiamos los actos de autoridad que puedan afectar tus intereses y
                     definimos una estrategia legal robusta para conseguir el mejor
