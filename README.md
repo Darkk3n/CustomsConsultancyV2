@@ -1,54 +1,31 @@
-# React + TypeScript + Vite
+# Jurídico Aduanero AGS - Customs Consultancy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://customs-consultancy-v2.vercel.app/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
+A modern, high-performance landing page for **Jurídico Aduanero AGS**, a specialized legal consultancy focused on Mexican customs law and foreign trade. This project serves as a professional digital presence, emphasizing clear service communication and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🌐 [Live Demo](https://customs-consultancy-v2.vercel.app/)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Technical Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This project was built to leverage the latest frontend performance standards:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Framework:** [React 19](https://react.dev/) (using functional components and modern hooks)
+- **Build Tool:** [Vite 6](https://vitejs.dev/) for ultra-fast Hot Module Replacement (HMR).
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (utilizing the new `@tailwindcss/vite` plugin for optimized builds).
+- **Language:** [TypeScript](https://www.typescriptlang.org/) for robust type safety.
+- **Icons:** [FontAwesome 6](https://fontawesome.com/) for scalable vector graphics.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## ✨ Features
+
+- **Responsive Architecture:** Fully optimized for Mobile, Tablet, and Desktop users.
+- **Performance Optimized:** Achieves high Lighthouse scores via Vite's optimized build pipeline and tree-shaking.
+- **Type Safety:** Comprehensive TypeScript implementation to ensure reliable code quality.
+- **Modern UI/UX:** Clean, corporate aesthetic tailored for legal and professional services.
