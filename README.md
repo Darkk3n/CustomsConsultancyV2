@@ -18,6 +18,7 @@ This project was built to leverage the latest frontend performance standards:
 - **Framework:** [React 19](https://react.dev/) (using functional components and modern hooks)
 - **Build Tool:** [Vite 6](https://vitejs.dev/) for ultra-fast Hot Module Replacement (HMR).
 - **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (utilizing the new `@tailwindcss/vite` plugin for optimized builds).
+- **Language:** [TypeScript](https://www.typescriptlang.org/) for robust type safety.
 - **Icons:** [FontAwesome 6](https://fontawesome.com/) for scalable vector graphics.
 
 ---
@@ -27,3 +28,4 @@ This project was built to leverage the latest frontend performance standards:
 - **Responsive Architecture:** Fully optimized for Mobile and Desktop users.
 - **Performance Optimized:** Achieves high Lighthouse scores via Vite's optimized build pipeline and tree-shaking.
 - **Modern UI/UX:** Clean, corporate aesthetic tailored for legal and professional services.
+- **Type Safety:** Comprehensive TypeScript implementation to ensure reliable code quality.
