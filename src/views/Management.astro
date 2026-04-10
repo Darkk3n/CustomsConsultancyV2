@@ -1,0 +1,56 @@
+---
+import ArrowContainer from "@/components/ArrowContainer.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import { Image } from "astro:assets";
+---
+
+<SectionContainer reverse split className="text-white">
+	<section class="w-full md:w-1/2 space-y-4 text-sm sm:text-base md:text-xl">
+		<ArrowContainer
+			text="Gestión y resolución de procedimientos administrativos aduaneros"
+			icon="ManagementIndividualIcon"
+		/>
+		<p>
+			Te acompaño en la gestión y resolución de tus procedimientos
+			administrativos aduaneros, incluyendo:
+		</p>
+
+		<ul class="list-disc list-inside space-y-2 text-left">
+			<li>Depósito ante la Aduana de Mercancías.</li>
+			<li>Recuperación de mercancías que causaron abandono.</li>
+			<li>Liberación de contenedores y vehículos.</li>
+			<li>
+				Procedimientos Administrativos en Materia Aduanera por embargo de
+				mercancías.
+			</li>
+			<li>Procedimientos Administrativos de Incidencias Simples.</li>
+			<li>
+				Gestión de diversos trámites ante las Autoridades Aduaneras relativos a
+				los actos y formalidades de la introducción o extracción de mercancías.
+			</li>
+		</ul>
+		<p>
+			Nuestra experiencia asegura una orientación precisa y eficaz en cada paso
+			del proceso.
+		</p>
+	</section>
+	<section class="w-full md:w-1/2 flex flex-col items-center gap-4">
+		<Image
+			src="/RealManagement.webp"
+			alt="gestion aduanera"
+			height={500}
+			width={500}
+		/>
+		<div class="bg-gray-900 rounded text-center w-full max-w-md">
+			<a
+				href="https://wa.me/5212294639014"
+				target="_blank"
+				class="block p-4 md:p-5 hover:bg-gray-800 transition"
+			>
+				¿Necesita apoyo en un procedimiento administrativo? Contáctanos para
+				obtener más información
+			</a>
+		</div>
+	</section>
+</SectionContainer>
+)
