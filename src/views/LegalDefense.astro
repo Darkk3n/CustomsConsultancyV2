@@ -1,0 +1,50 @@
+---
+import ArrowContainer from "@/components/ArrowContainer.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import { Image } from "astro:assets";
+---
+
+<SectionContainer split className="text-white">
+	<section class="w-full md:w-1/2 space-y-4 text-sm sm:text-base md:text-xl">
+		<ArrowContainer
+			text="Defensa legal ante actos y resoluciones definitivas de autoridad aduanera."
+			icon="LegalDefenseIndividualIcon"
+		/>
+		<p>
+			Estudiamos los actos de autoridad que puedan afectar tus intereses y
+			definimos una estrategia legal robusta para conseguir el mejor resultado
+			posible. Ofrecemos:
+		</p>
+		<ul class="list-disc list-inside space-y-2 text-left">
+			<li>
+				Recursos de Revocación para impugnar actos de autoridad aduanera
+				definitivos y determinantes de créditos fiscales.
+			</li>
+			<li>
+				Juicios de Nulidad que permiten impugnar resoluciones emitidas por las
+				autoridades aduaneras.
+			</li>
+			<li>
+				Juicios de amparo que protegen tus derechos humanos ante actos de las
+				autoridades aduaneras.
+			</li>
+		</ul>
+		<div class="bg-gray-900 rounded text-center">
+			<a
+				href="https://wa.me/5212294639014"
+				target="_blank"
+				class="block p-4 md:p-5 hover:bg-gray-800 transition"
+			>
+				¿Buscas defensa legal especializada? Consulta cómo podemos ayudarte
+			</a>
+		</div>
+	</section>
+	<section class="w-full md:w-1/2 flex justify-center">
+		<Image
+			src="/LegalDefense.webp"
+			alt="defensa legal"
+			height={500}
+			width={500}
+		/>
+	</section>
+</SectionContainer>
