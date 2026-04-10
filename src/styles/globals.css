@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+   --font-dancing: "Dancing Script", cursive;
+}
+
+/* Custom utility classes go below the @theme block */
+@utility clip-arrow {
+   clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 50%, calc(100% - 40px) 100%, 0 100%);
+}
