@@ -1,3 +1,8 @@
+import tailwindv4 from '@tailwindcss/vite'; // Import the Vite plugin
 import { defineConfig } from 'astro/config';
-// https://astro.build/config
-export default defineConfig({});
+
+export default defineConfig({
+   vite: {
+      plugins: [tailwindv4()],
+   },
+});

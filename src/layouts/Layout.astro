@@ -1,0 +1,31 @@
+---
+import "../styles/globals.css";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<meta
+			name="description"
+			content="Despacho jurídico especializado en derecho aduanero y comercio exterior. Asesoría, defensa legal y capacitación para operaciones en México."
+		/>
+		<title>Abogado Aduanero en México | Jurídico Aduanero AGS</title>
+	</head>
+	<body class="bg-blue-950">
+		<slot />
+	</body>
+</html>
+
+<style>
+	@reference "../styles/globals.css";
+	html {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
