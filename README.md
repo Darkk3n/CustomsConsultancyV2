@@ -7,7 +7,7 @@
 
 A modern, high-performance landing page for **Jurídico Aduanero AGS**, a specialized legal consultancy focused on Mexican customs law and foreign trade. This project serves as a professional digital presence, emphasizing clear service communication and responsive design.
 
-**🌐 [Live Demo](https://customs-consultancy-v2.vercel.app/)**
+**🌐 [Live Demo](https://juridicoaduaneroags.vercel.app/)**
 
 ---
 
