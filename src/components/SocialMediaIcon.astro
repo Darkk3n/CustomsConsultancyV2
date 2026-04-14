@@ -1,0 +1,33 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+	iconName: string; // e.g., "fa6-brands:facebook"
+	link?: string;
+	text?: string;
+	isBold?: boolean;
+}
+
+const { iconName, link, text, isBold = false } = Astro.props;
+---
+
+<a
+	href={link}
+	target="_blank"
+	rel="noopener noreferrer"
+	class="flex items-center group"
+>
+	<Icon name={iconName} class="text-white w-8 h-8" />
+	{
+		text && (
+			<span
+				class:list={[
+					"ml-4 text-white text-xl transition-colors group-hover:text-blue-400",
+					{ "font-bold": isBold },
+				]}
+			>
+				{text}
+			</span>
+		)
+	}
+</a>
