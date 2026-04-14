@@ -6,22 +6,31 @@ interface IArrowContainerProps {
 const { text, icon } = Astro.props;
 ---
 
-<div
-	class="clip-arrow flex items-center p-4 sm:p-6 pr-12 max-w-full sm:max-w-xl"
-	style={{ backgroundColor: "#001129" }}
->
-	<div class="shrink-0 mr-1 sm:mr-2">
+<div class="clip-arrow bg-[#051125] flex items-center p-4 pr-16 gap-8">
+	<div class="shrink-0 w-24 md:w-28">
 		<img
 			src={`/${icon}.webp`}
-			alt="Element Icon"
-			class="w-32 h-32 sm:w-32 sm:h-32 object-contain"
+			alt=""
+			class="w-full h-auto block"
+			loading="eager"
+			decoding="async"
 		/>
 	</div>
-	<div class="text-white">
-		<h2
-			class="text-lg sm:text-2xl font-bold leading-tight italic uppercase tracking-wide"
-		>
-			{text}
-		</h2>
-	</div>
+
+	<h2 class="text-white font-bold text-lg md:text-xl uppercase leading-tight">
+		{text}
+	</h2>
 </div>
+
+<style>
+	.clip-arrow {
+		/* The 40px here defines the depth of the arrow point */
+		clip-path: polygon(
+			0 0,
+			calc(100% - 40px) 0,
+			100% 50%,
+			calc(100% - 40px) 100%,
+			0 100%
+		);
+	}
+</style>
